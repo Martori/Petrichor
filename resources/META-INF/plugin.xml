@@ -1,0 +1,55 @@
+<!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+    <id>cat.martori.petrichor</id>
+    <version>1.0.0</version>
+
+    <name>Petrichor</name>
+    <category>UI</category>
+
+    <vendor url="https://github.com/martori">Martori</vendor>
+
+    <idea-version since-build="251"/>
+
+    <description><![CDATA[
+        <p>Petrichor is a color scheme inspired by the colors of rainy days; it's meant to be cozy, soft, and practical.</p>
+        <p>This is a JetBrains port of the original
+        <a href="https://github.com/PersonForSure/petrichor">Petrichor</a> color scheme by Monocled.</p>
+        <ul>
+            <li>Cozy, soft, low-saturation colors with good contrast.</li>
+            <li>Comments are deliberately highlighted.</li>
+            <li>Syntax token mapping inspired by the Catppuccin theme.</li>
+        </ul>
+        <p>Four variants are included:</p>
+        <ul>
+            <li>Petrichor Dark</li>
+            <li>Petrichor Light</li>
+            <li>Petrichor Dark (Islands)</li>
+            <li>Petrichor Light (Islands)</li>
+        </ul>
+        ]]></description>
+
+    <change-notes><![CDATA[
+        <b>1.0.0</b>
+        <ul>
+            <li>Initial release with Dark and Light variants.</li>
+            <li>Islands variants for the new IntelliJ Islands UI.</li>
+        </ul>
+    ]]></change-notes>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <themeProvider
+                id="028ed6ed-02c6-4bd5-a15c-65f17143a1e5"
+                path="/themes/Petrichor_Dark.theme.json"/>
+        <themeProvider
+                id="7a6f1c94-3d18-4a2e-9f0b-1c5e8d4b7a31"
+                path="/themes/Petrichor_Light.theme.json"/>
+        <themeProvider
+                id="b2e94f07-8c53-4d6a-bb17-3e0a9f62c548"
+                path="/themes/Petrichor_Dark_Islands.theme.json"/>
+        <themeProvider
+                id="c5d10a83-4f27-49be-8a3c-6d91b7e04f2a"
+                path="/themes/Petrichor_Light_Islands.theme.json"/>
+    </extensions>
+</idea-plugin>

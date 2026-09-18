@@ -1,0 +1,15 @@
+<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect x="2" y="2" width="36" height="36" rx="9" fill="#202023"/>
+    <path d="M20 8.5c4.6 5.4 7.4 9.4 7.4 12.9A7.4 7.4 0 0 1 20 28.8a7.4 7.4 0 0 1-7.4-7.4c0-3.5 2.8-7.5 7.4-12.9Z"
+          fill="url(#petrichor_drop)"/>
+    <path d="M10.5 30.5l-1.8 3.2M20 31.5l-1.8 3.2M29.5 30.5l-1.8 3.2"
+          stroke="#86a3a6" stroke-width="1.8" stroke-linecap="round"/>
+    <defs>
+        <linearGradient id="petrichor_drop" x1="12.6" y1="8.5" x2="27.4" y2="28.8"
+                        gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#9cb9c0"/>
+            <stop offset="0.55" stop-color="#8d96bd"/>
+            <stop offset="1" stop-color="#b694b6"/>
+        </linearGradient>
+    </defs>
+</svg>
