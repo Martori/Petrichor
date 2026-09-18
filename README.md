@@ -3,6 +3,15 @@
 A JetBrains/IntelliJ port of [Petrichor](https://github.com/PersonForSure/petrichor), a color
 scheme inspired by the colors of rainy days — cozy, soft, and practical.
 
+<details>
+<summary>Preview</summary>
+
+![Petrichor Dark](dark.png)
+![Petrichor Light](light.png)
+
+
+</details>
+
 ## Variants
 
 | Theme | Editor scheme |
